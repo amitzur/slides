@@ -1,0 +1,36 @@
+{
+    "name": "__title__",
+    "version": "0.0.1",
+    "description": "__description__",
+    "homepage": "http://__homepage__",
+    "subdomain": "__subdomain__",
+    "scripts": {
+        "start": "node server/index.js"
+    },
+    "author": {
+        "name": "Amit Zur",
+        "email": "sendwithchibo@gmail.com",
+        "web": "http://github.com/amitzur"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:amitzur/__repo__.git"
+    },
+    "engines": {
+        "node": "~0.8.0"
+    },
+    "dependencies": {
+        "underscore": "~1.5.1",
+        "express": "~2.5.9",
+        "mustache": "~0.7.2",
+        "socket.io": "~0.9.13"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.0",
+        "grunt-contrib-connect": "~0.4.1",
+        "grunt-contrib-sass": "~0.5.0",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-zip": "~0.7.0"
+    },
+    "licenses": []
+}

@@ -1,0 +1,9 @@
+.DS_Store
+.svn
+log/*.log
+tmp/**
+node_modules/
+.sass-cache
+secret
+js/init-master.js
+css/*.map
